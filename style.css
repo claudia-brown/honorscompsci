@@ -1,0 +1,53 @@
+.grid {
+	display: grid;
+	background-color: gray;
+	grid-template-rows: 500px 500px 500px 500px;
+	grid-template-columns: 500px 500px 500px 500px 500px;
+}
+
+.newgrid {
+	display: grid;
+	grid-template-rows: 250px 250px;
+	grid-template-columns: 550px 550px;
+	grid-template-areas:
+		"A B"
+		"C D"
+}
+
+.A {
+	background-color: white;
+	border: solid red 2px;
+	grid-area: A;
+}
+
+.B {
+	background-color: white;
+	border: solid red 2px;
+	grid-area: B;
+}
+
+.C {
+	background-color: white;
+	border: solid red 2px;
+	grid-area: C;
+}
+
+.D {
+	background-color: white;
+	border: solid red 2px;
+	grid-area: D;
+}
+
+.linkgrid {
+	font-size: 150px;
+	display: grid;
+}
+
+.photogrid {
+	font-size: 50px;
+	display: grid;
+	grid-row-start: 10;
+	background-color: white;
+	grid-template-rows: 1000
+	grid-template-columns:500
+}
